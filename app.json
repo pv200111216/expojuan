@@ -16,6 +16,9 @@
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "Necesitamos acceder a tu ubicación para mostrar la ruta en el mapa.",
         "NSLocationAlwaysAndWhenInUseUsageDescription": "Necesitamos acceder a tu ubicación para mostrar la ruta en el mapa."
+      },
+      "runtimeVersion": {
+        "policy": "appVersion"
       }
     },
     "android": {
@@ -26,7 +29,8 @@
       "package": "com.tsjjuan.produccionapp",
       "permissions": [
         "ACCESS_FINE_LOCATION"
-      ]
+      ],
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -36,6 +40,9 @@
       "eas": {
         "projectId": "a1114091-0dbc-4b1b-bbe4-610bcc748513"
       }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a1114091-0dbc-4b1b-bbe4-610bcc748513"
     }
   }
 }
