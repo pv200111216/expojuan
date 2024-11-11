@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "270025882154",
+    "firebase_url": "https://control-alumnos-7be34-default-rtdb.firebaseio.com",
+    "project_id": "control-alumnos-7be34",
+    "storage_bucket": "control-alumnos-7be34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270025882154:android:44482c636060b54af02153",
+        "android_client_info": {
+          "package_name": "com.tsjjuan.produccionapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe2f5i9BXl_P1L1CMNjJSsKmrVfw4XpJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

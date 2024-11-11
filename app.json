@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "proyectoprodapp",
+    "slug": "proyectoprodapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Necesitamos acceder a tu ubicación para mostrar la ruta en el mapa.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Necesitamos acceder a tu ubicación para mostrar la ruta en el mapa."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tsjjuan.produccionapp",
+      "permissions": [
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "googleMapsApiKey": "AIzaSyDe2f5i9BXl_P1L1CMNjJSsKmrVfw4XpJY",
+      "eas": {
+        "projectId": "a1114091-0dbc-4b1b-bbe4-610bcc748513"
+      }
+    }
+  }
+}
